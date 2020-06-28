@@ -1,6 +1,6 @@
 # Study of Hardware-Software Co-design of Vehicle(Car) detection using HOG and SVM
 
-RnD project done under Prof. Sachin Patkar as a part of a RnD course project (EE 692)
+RnD project done under Prof. Sachin Patkar as a part of RnD course project (EE 692)
 
 ## Softwares Used
 
