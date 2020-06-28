@@ -1,0 +1,214 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7a200t-sbg484-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HOG_SVM_with_pragmas2/core.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:52 ; elapsed = 00:01:11 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 1294 ; free virtual = 25177
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:52 ; elapsed = 00:01:11 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 1295 ; free virtual = 25177
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:55 ; elapsed = 00:01:15 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 1224 ; free virtual = 25107
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function '_ZN9fp_structIfEC2Ef8' into '_ZN9fp_structIfEC1Ef4' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h:319) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::data' into 'fp_struct<float>::to_float' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h:348) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_float' into 'fp_struct<float>::to_ieee' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h:369) automatically.
+INFO: [XFORM 203-602] Inlining function '_ZN9fp_structIfEC1Ef4' into 'generic_copysign<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_copysign.h:12) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_ieee' into 'generic_copysign<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_copysign.h:14) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_copysign<float>' into 'generic_fabs<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_fabs.h:13) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_fabs<float>' into 'hls::abs' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/c++/absfloat.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function '_ZN9fp_structIfEC1Ef4' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:17) automatically.
+INFO: [XFORM 203-602] Inlining function '_ZNK9fp_structIfE9__signbitEv6' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:19) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_copysign<float>' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:22) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::data' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:36) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_ieee' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:40) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:15) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:18) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:59) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<int, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:117) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:51) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::abs' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:56) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::floor' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:63) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:63) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::sqrt' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:131) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:199) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::min<float>' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:335) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:56 ; elapsed = 00:01:16 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 1190 ; free virtual = 25073
+INFO: [XFORM 203-101] Partitioning array 'svm_coef'  in dimension 1 with a cyclic factor 9.
+INFO: [XFORM 203-101] Partitioning array 'orientation'  in dimension 2 with a block factor 5.
+INFO: [XFORM 203-101] Partitioning array 'orientation_histogram'  in dimension 3 completely.
+WARNING: [XFORM 203-104] Completely partitioning array 'tan_inv_lut'  accessed through non-constant indices on dimension 1 (HOG_SVM_with_pragmas2/core.cpp:68:52), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'tan_inv_lut'  in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function '_ZN9fp_structIfEC2Ef8' into '_ZN9fp_structIfEC1Ef4' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h:319) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::data' into 'fp_struct<float>::to_float' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h:348) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_float' into 'fp_struct<float>::to_ieee' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h:369) automatically.
+INFO: [XFORM 203-602] Inlining function '_ZN9fp_structIfEC1Ef4' into 'generic_copysign<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_copysign.h:12) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_ieee' into 'generic_copysign<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_copysign.h:14) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_copysign<float>' into 'generic_fabs<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_fabs.h:13) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_fabs<float>' into 'hls::abs' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/c++/absfloat.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function '_ZN9fp_structIfEC1Ef4' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:17) automatically.
+INFO: [XFORM 203-602] Inlining function '_ZNK9fp_structIfE9__signbitEv6' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:19) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_copysign<float>' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:22) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::data' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:36) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_ieee' into 'generic_floor<float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:40) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:15) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:18) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:59) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<int, float>' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:117) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:51) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::abs' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:56) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::floor' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:63) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:63) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::sqrt' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:131) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:199) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::min<float>' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:335) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (HOG_SVM_with_pragmas2/core.cpp:255:9) to (HOG_SVM_with_pragmas2/core.cpp:253:82) in function 'hog_hls'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:13:19) to (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_floor.h:42:1) in function 'generic_floor<float>'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (HOG_SVM_with_pragmas2/core.cpp:63:14) to (HOG_SVM_with_pragmas2/core.cpp:92:2) in function 'approximate_tan_inverse'... converting 5 basic blocks.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.101floatP.i7' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:68).
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.101floatP.i7' into 'approximate_tan_inverse' (HOG_SVM_with_pragmas2/core.cpp:68).
+INFO: [XFORM 203-602] Inlining function 'generic_floor<float>' into 'approximate_tan_inverse' (/wrk/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/c++/floorfloat.cpp:7->HOG_SVM_with_pragmas2/core.cpp:63) automatically.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.9[972 x float]P.i32.i64' into 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:380).
+INFO: [XFORM 203-11] Balancing expressions in function 'hog_hls' (HOG_SVM_with_pragmas2/core.cpp:103)...9 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:58 ; elapsed = 00:01:19 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 1109 ; free virtual = 24991
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8.1.2.1' (HOG_SVM_with_pragmas2/core.cpp:318:22) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8.1.2' (HOG_SVM_with_pragmas2/core.cpp:316:21) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8.1.3.1' (HOG_SVM_with_pragmas2/core.cpp:332:22) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8.1.3' (HOG_SVM_with_pragmas2/core.cpp:330:21) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8.1.4.1' (HOG_SVM_with_pragmas2/core.cpp:346:22) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8.1.4' (HOG_SVM_with_pragmas2/core.cpp:344:21) in function 'hog_hls'.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-8.1' (HOG_SVM_with_pragmas2/core.cpp:296:19) in function 'hog_hls' : 
+
+more than one sub loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-8' (HOG_SVM_with_pragmas2/core.cpp:294:18) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-9.1.1.1' (HOG_SVM_with_pragmas2/core.cpp:376:23) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-9.1.1' (HOG_SVM_with_pragmas2/core.cpp:375:22) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-9.1' (HOG_SVM_with_pragmas2/core.cpp:374:20) in function 'hog_hls'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-9' (HOG_SVM_with_pragmas2/core.cpp:373:19) in function 'hog_hls'.
+WARNING: [XFORM 203-631] Renaming function 'approximate_tan_inverse' to 'approximate_tan_inve' (HOG_SVM_with_pragmas2/core.cpp:14:2)
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 4000 on port 'gmem' (HOG_SVM_with_pragmas2/core.cpp:130:27). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:02 ; elapsed = 00:01:23 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 1216 ; free virtual = 25099
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'hog_hls' ...
+WARNING: [SYN 201-107] Renaming port name 'hog_hls/image' to 'hog_hls/image_r' to avoid the conflict with HDL keywords or other object names.
+WARNING: [SYN 201-107] Renaming port name 'hog_hls/block' to 'hog_hls/block_r' to avoid the conflict with HDL keywords or other object names.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'approximate_tan_inve' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'approximate_tan_inve'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 76.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 84.19 seconds; current allocated memory: 290.365 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.16 seconds; current allocated memory: 293.675 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'hog_hls' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 3'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 8.2'.
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 1)
+   between 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323) and 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 2)
+   between 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323) and 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 3)
+   between 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323) and 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 4)
+   between 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323) and 'fadd' operation ('sum', HOG_SVM_with_pragmas2/core.cpp:323).
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 12.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 8.3'.
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 1)
+   between 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336) and 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 2)
+   between 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336) and 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 3)
+   between 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336) and 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 4)
+   between 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336) and 'fadd' operation ('sum2', HOG_SVM_with_pragmas2/core.cpp:336).
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 30.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 8.4'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 20.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 9'.
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 1)
+   between 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380) and 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 2)
+   between 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380) and 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 3)
+   between 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380) and 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380).
+WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 4)
+   between 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380) and 'fadd' operation ('linear_svc_cal', HOG_SVM_with_pragmas2/core.cpp:380).
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 31.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 3.23 seconds; current allocated memory: 297.341 MB.
+INFO: [HLS 200-434] Only 6 loops out of a total 25 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 2.61 seconds; current allocated memory: 302.687 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'approximate_tan_inve' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fadd_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fcmp_32ns_32ns_1_2_1': 7 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fdiv_32ns_32ns_32_16_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fsub_32ns_32ns_32_5_full_dsp_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_sitofp_32ns_32_6_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'approximate_tan_inve'.
+INFO: [HLS 200-111]  Elapsed time: 3.17 seconds; current allocated memory: 310.873 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'hog_hls' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'hog_hls/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'hog_hls/image_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'hog_hls' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_faddfsub_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fcmp_32ns_32ns_1_2_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fdiv_32ns_32ns_32_16_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_fsqrt_32ns_32ns_32_12_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_mac_muladd_2ns_6ns_11ns_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_mac_muladd_6ns_2ns_11ns_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_mul_mul_16ns_14ns_30_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_mux_532_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_mux_94_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_sitofp_32ns_32_6_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_urem_14ns_5ns_4_18_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'hog_hls_urem_7ns_6ns_7_11_seq_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'hog_hls'.
+INFO: [HLS 200-111]  Elapsed time: 4.89 seconds; current allocated memory: 333.229 MB.
+INFO: [RTMG 210-279] Implementing memory 'approximate_tan_inve_mask_table1_rom' using distributed ROMs.
+INFO: [RTMG 210-282] Generating pipelined core: 'hog_hls_urem_7ns_6ns_7_11_seq_1_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'hog_hls_urem_14ns_5ns_4_18_1_div'
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_image_copy_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_g_row_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_magnitude_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_orientation_0_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_orientation_histogra_8_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_block_r_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'hog_hls_normalized_blocks_ram (RAM)' using block RAMs with power-on initialization.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================

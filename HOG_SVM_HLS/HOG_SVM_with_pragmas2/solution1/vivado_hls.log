@@ -1,0 +1,21 @@
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /mnt/f/2019pt1_vivado_WSL/Vivado/2019.1/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/mnt/f/2019pt1_vivado_WSL/Vivado/2019.1/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'neelam96' on host 'LAPTOP-96NLHABC.localdomain' (Linux_x86_64 version 4.4.0-17763-Microsoft) on Sun Jun 28 23:30:21 DST 2020
+INFO: [HLS 200-10] On os Ubuntu 16.04.6 LTS
+INFO: [HLS 200-10] In directory '/mnt/f/Neelam Sharma/Notes/IIT B Subjects/Sem 4/RnD/CarDetection/GIT_REPO/HOG_SVM_HLS/HOG_SVM_with_pragmas2/solution1'
+Sourcing Tcl script 'script.tcl'
+ERROR: [HLS 200-70] Project/solution path '/mnt/f/Neelam Sharma/Notes/IIT B Subjects/Sem 4/RnD/CarDetection/GIT_REPO/HOG_SVM_HLS/HOG_SVM_with_pragmas2/solution1/HOG_SVM_with_pragmas2' contains illegal character ' '.
+command 'ap_source' returned error code
+    while executing
+"source script.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $arg] "
+
+INFO: [Common 17-206] Exiting vivado_hls at Sun Jun 28 23:30:21 2020...
