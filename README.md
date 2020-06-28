@@ -10,7 +10,7 @@ Vivado WebPACK 2019.1
 
 Using the normal HLS synthesis flow create and export the IP 
 
-## Create project using TCL
+## Create Vivado project using TCL
 
 
 ```tcl
