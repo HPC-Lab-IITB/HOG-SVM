@@ -8,7 +8,7 @@ Vivado WebPACK 2019.1
 
 ## Create HOG-SVM accelerator IP form HLS
 
-Using the normal HLS synthesis flow create and export the IP 
+Using the normal HLS synthesis flow create, synthesize and export the IP 
 
 ## Create Vivado project using TCL
 
