@@ -1,0 +1,115 @@
+18:51:12 INFO  : Registering command handlers for SDK TCF services
+18:51:16 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+18:53:40 INFO  : XSCT server has started successfully.
+18:53:40 INFO  : Successfully done setting XSCT server connection channel  
+18:54:44 INFO  : Successfully done setting SDK workspace  
+18:54:44 INFO  : Processing command line option -hwspec /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper.hdf.
+05:08:03 INFO  : Registering command handlers for SDK TCF services
+05:08:07 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+05:11:08 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+05:11:08 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+05:14:10 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+05:14:10 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+05:14:10 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+05:15:38 INFO  : XSCT server has started successfully.
+05:17:07 INFO  : Processing command line option -hwspec /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper.hdf.
+05:19:24 INFO  : Successfully done setting XSCT server connection channel  
+05:19:25 INFO  : Successfully done setting SDK workspace  
+05:19:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:19:14 INFO  : Registering command handlers for SDK TCF services
+14:19:17 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+14:22:19 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+14:22:19 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+14:22:19 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+14:22:19 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+14:22:19 INFO  : Processing command line option -hwspec /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper.hdf.
+14:22:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:25:20 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+14:25:20 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+14:28:21 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+14:28:21 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+14:28:21 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+14:31:23 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+14:31:23 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+14:31:23 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+14:31:23 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+14:34:24 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+14:34:24 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+14:34:56 ERROR : (XSDB Server)couldn't read file "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl": no such file or directory
+
+14:44:28 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+14:46:54 INFO  : XSCT server has started successfully.
+14:46:54 INFO  : Successfully done setting XSCT server connection channel  
+14:49:08 INFO  : Successfully done setting SDK workspace  
+18:04:33 INFO  : Registering command handlers for SDK TCF services
+18:04:38 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+18:06:02 INFO  : Registering command handlers for SDK TCF services
+18:06:06 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+18:09:07 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+18:09:07 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+18:12:09 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+18:12:09 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+18:12:09 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+18:12:09 INFO  : Processing command line option -hwspec /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper.hdf.
+18:12:09 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+18:15:10 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+18:15:10 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+18:15:10 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+18:17:49 INFO  : XSCT server has started successfully.
+18:21:33 INFO  : Successfully done setting XSCT server connection channel  
+18:21:34 INFO  : Successfully done setting SDK workspace  
+10:14:16 INFO  : Registering command handlers for SDK TCF services
+10:14:20 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+10:17:21 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+10:17:21 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+10:17:21 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+10:17:21 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+10:17:21 INFO  : Processing command line option -hwspec /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper.hdf.
+10:17:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:20:21 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+10:20:21 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+10:23:21 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+10:23:21 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+10:23:21 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+10:26:22 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+10:26:22 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_1/system.hdf"
+Reason: xsct server communication channel is not established.
+10:26:24 INFO  : Project design_1_wrapper_hw_platform_1's source hardware specification location will not be monitored anymore.
+10:26:24 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+10:29:24 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+10:29:24 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+10:29:33 ERROR : (XSDB Server)couldn't read file "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl": no such file or directory
+
+19:37:01 INFO  : Registering command handlers for SDK TCF services
+19:37:10 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+19:38:07 INFO  : Registering command handlers for SDK TCF services
+19:38:09 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+19:41:10 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+19:41:10 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+19:41:10 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+19:41:10 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+19:41:10 INFO  : Processing command line option -hwspec /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper.hdf.
+19:44:12 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+19:44:12 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+19:47:13 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+19:47:13 ERROR : Failed to openhw "/mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/design_1_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+19:47:13 INFO  : Launching XSCT server: xsct -n -interactive /mnt/f/2019pt1_vivado_WSL/Vivado_projects/HOG_SVM2/HOG_SVM2.sdk/temp_xsdb_launch_script.tcl
+19:48:59 INFO  : XSCT server has started successfully.
+19:52:29 INFO  : Successfully done setting XSCT server connection channel  
+19:52:30 INFO  : Successfully done setting SDK workspace  

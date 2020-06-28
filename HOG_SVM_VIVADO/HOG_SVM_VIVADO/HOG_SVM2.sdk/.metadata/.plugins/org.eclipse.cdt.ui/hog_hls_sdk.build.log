@@ -1,0 +1,21 @@
+19:40:02 **** Auto Build of configuration Debug for project hog_hls_sdk ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hog_hls_sdk_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hog_hls_sdk.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hog_hls_sdk_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hog_hls_sdk.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hog_hls_sdk.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size hog_hls_sdk.elf  |tee "hog_hls_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85608	  17672	   3168	 106448	  19fd0	hog_hls_sdk.elf
+Finished building: hog_hls_sdk.elf.size
+ 
+
+19:40:04 Build Finished (took 2s.19ms)
+
