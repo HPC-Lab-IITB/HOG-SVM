@@ -1,0 +1,46 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port uart_rtl_0 -pg 1 -lvl 7 -x 2090 -y 200 -defaultsOSRD
+preplace port diff_clock_rtl_0 -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace port reset_rtl_0 -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -x 910 -y 640 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -x 1340 -y 650 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 450 -y 640 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 140 -y 870 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 450 -y 820 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 1660 -y 350 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -x 1340 -y 190 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -x 1940 -y 350 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1660 -y 210 -defaultsOSRD
+preplace inst hog_hls_0 -pg 1 -lvl 3 -x 910 -y 460 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 1 4 260 560 640 360 1180 400 1510
+preplace netloc clk_wiz_1_locked 1 1 1 270 860n
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 1 670 670n
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 2 660 550 1150J
+preplace netloc mdm_1_debug_sys_rst 1 1 2 270 570 630
+preplace netloc reset_rtl_0_1 1 0 2 20 800 NJ
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 3 650 370 1190 390 1520
+preplace netloc microblaze_0_debug 1 2 1 N 630
+preplace netloc hog_hls_0_m_axi_gmem 1 3 1 1170 80n
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 1500 170n
+preplace netloc microblaze_0_M_AXI_DP 1 3 1 1160 60n
+preplace netloc microblaze_0_ilmb_1 1 3 1 N 640
+preplace netloc microblaze_0_dlmb_1 1 3 1 N 620
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 N 340
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 5 1 N 360
+preplace netloc axi_uartlite_0_UART 1 5 2 NJ 200 NJ
+preplace netloc axi_mem_intercon_M01_AXI 1 4 1 N 190
+preplace netloc axi_mem_intercon_M02_AXI 1 2 3 660 380 NJ 380 1490
+preplace netloc diff_clock_rtl_0_1 1 0 1 NJ 860
+levelinfo -pg 1 0 140 450 910 1340 1660 1940 2090
+pagesize -pg 1 -db -bbox -sgen -160 0 2210 940
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"5",
+   "da_bram_cntlr_cnt":"2",
+   "da_mb_cnt":"1"
+}
