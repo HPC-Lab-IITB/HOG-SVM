@@ -18,6 +18,11 @@ Using the normal HLS synthesis flow create, synthesize and export the IP
 source <path-to-build.tcl>/build.tcl
 
 ```
+### Running Behavioral Simulation using MicroBlaze
+
+I have made a draft of a post to be published on medium.com for how I ran Behavioral Simulation.
+Link to the draft: [Behavioral RTL Simulation with MicroBlaze](https://medium.com/@sapphire.sharma1996/behavioral-rtl-simulation-with-microblaze-131671e86f04)
+
 
 ## Debugging any error encountered while sourcing build.tcl
 	- ERROR: [BD_TCL-115] The following IPs are not found in the IP Catalog.
